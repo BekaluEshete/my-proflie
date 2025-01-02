@@ -8,7 +8,8 @@ export default defineConfig({
   root: '.',
   build: {
     rollupOptions: {
-      input: './index.jsx', // Specify the custom entry point
+      input: './src/index.jsx', // Specify the custom entry point
     }, 
    } // Set the root directory to current working directory
 })
+// git remote rename origin old-origin
